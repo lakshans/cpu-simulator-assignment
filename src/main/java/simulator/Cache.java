@@ -26,8 +26,7 @@ public class Cache {
 
   public String printCacheValues() {
     StringBuilder stringBuilder = new StringBuilder();
-    stringBuilder.append("Cache Values\n");
-    stringBuilder.append("============\n");
+    stringBuilder.append("Cache Values in format \"[index]: value\" -> \n");
     for (int index = 0; index < cache.length; index++) {
       if (cache[index] > 0) {
         stringBuilder.append("[" + index + "]: " + cache[index] + "\n");
