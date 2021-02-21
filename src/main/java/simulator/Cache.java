@@ -1,7 +1,5 @@
 package simulator;
 
-import java.util.Arrays;
-
 public class Cache {
 
   private int[] cache;
