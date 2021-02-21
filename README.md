@@ -11,6 +11,7 @@
 
 - input format will always be "INSTRUCTION VALUE,VALUE"
 - for any invalid instructions (doesn't match the list of instructions to support), they will be ignored
+- when there is overflow, modulo of the value by 256 is taken
 
 ### Improvements/questions for future iteration
 
