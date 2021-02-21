@@ -131,6 +131,7 @@ public class CpuSimulator {
         break;
       default:
         log.warning("invalid instruction");
+        instructionCounter+=2;
         break;
     }
   }
